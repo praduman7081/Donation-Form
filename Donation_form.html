@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Form</title>
+    <link rel="stylesheet" href="donation.css">
+    
+       
+
+</head>
+
+<body>
+    <div class="container">
+    <h1>Donation Page</h1>
+        <form action="/test.php" target="_blank" class="f">
+
+                <label for="fname" >First Name</label>
+                <input type="text" name ="Firstname" placeholder="First Name"  id="fname" required>
+        
+            <label for="mname" >Mid Name</label>
+            <input type="text" name ="MidName" placeholder="Mid Name"  id="mname">
+            
+            <label for="lname" >Last Name</label>
+            <input type="text"name="LastName" placeholder="Last Name"  id="lname">
+             <br>
+            <label for="email">Email</label>
+            <input type="text" name ="Email"  placeholder="Email"  id="email" required>
+            
+            <label for="contact">Contact</label>
+            <input type="text" name="Contect no"  placeholder="Contact"  id="contact" required>
+             <br>
+              
+            <label for="address">Address</label>
+            <input type="text" name="Address" placeholder="Parmanent Address"  id="address" required>
+            
+            <label for="address2">Address2</label>
+            <input type="text" placeholder="Appartment, studio, floor"  id="address2">
+             <br>
+            
+            <label for="city">City</label>
+            <input type="text" name="City" placeholder="city"  id="city">
+            
+            <label for="state">State</label>
+            <select  id="state">
+                <option placeholder="none">choosen..</option>
+                <option value="bihar">Bihar</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Other">Other</option>
+            </select>
+            <br>
+            <label for="zip">Zip</label>
+            <input type="text"  placeholder="Zip no"  id="zip" required>
+            <br>
+            <input type="checkbox" name="checkbox " > Agree to terms and conditions
+            <br><br>
+
+            <input type="submit" value="Donate" size="30px" id="btn">
+            <input type="button" value="Back to Home" size="30px" id="btn">
+
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>
